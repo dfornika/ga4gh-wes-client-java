@@ -50,7 +50,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "io.swagger:swagger-java-client:1.0.0"
+compile "com.github.dfornika:ga4gh-wes-client:1.0.0"
 ```
 
 ### Others
@@ -94,9 +94,9 @@ public class WorkflowExecutionServiceApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
+import com.github.dfornika.ga4ghwes.client.*;
+import com.github.dfornika.ga4ghwes.client.auth.*;
+import com.github.dfornika.ga4ghwes.client.model.*;
 import WorkflowExecutionServiceApi;
 
 import java.io.File;
